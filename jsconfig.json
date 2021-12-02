@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
+  },
+  "include": ["./**/*.js", "api/index.ts"],
+  "exclude": ["node_modules", "dist", ".cache"]
+}
